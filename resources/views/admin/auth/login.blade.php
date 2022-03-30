@@ -7,9 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url("{{ asset('front/img/banner_bg.png') }}");
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <div class="container m-5 p-5 ">
+        <a target="_blank" href="{{ route('front.homepage') }}">
+            <img class="mb-5 mt-5" src="{{ asset('front/img/logo.png') }}" style="margin-left: 345px;">
+        </a>
         @include('admin.inc.errors')
         <form method="post" action="{{ route('admin.doLogin') }}">
             @csrf

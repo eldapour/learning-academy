@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="455db7ed-067c-4245-932d-ce0c854dc628" name="Default Changelist" comment="" />
+    <list default="true" id="455db7ed-067c-4245-932d-ce0c854dc628" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +16,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -146,7 +150,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/inc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,10 +163,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\learning-academy\resources\views\admin\inc" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\students" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\courses" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\cats" />
-      <recent name="C:\wamp\www\learning-academy\resources\views\admin\inc" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -221,7 +225,8 @@
       <workItem from="1647170016104" duration="18904000" />
       <workItem from="1647862479598" duration="238000" />
       <workItem from="1648311573154" duration="91000" />
-      <workItem from="1648311666021" duration="9000" />
+      <workItem from="1648311666021" duration="285000" />
+      <workItem from="1648646022288" duration="1755000" />
     </task>
     <servers />
   </component>
