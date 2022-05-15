@@ -10,8 +10,8 @@ class TrainerSeeder extends Seeder
      *
      * @return void
      */
-//    public function run()
-//    {
+    public function run()
+    {
 //        Trainer::create([
 //            'name' => 'kamal rowdy',
 //            'spec' => 'wep development',
@@ -37,5 +37,5 @@ class TrainerSeeder extends Seeder
 //            'spec' => 'English Teacher',
 //            'img' => '5.png',
 //        ]);
-//    }
+    }
 }

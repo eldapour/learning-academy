@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="455db7ed-067c-4245-932d-ce0c854dc628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="455db7ed-067c-4245-932d-ce0c854dc628" name="Default Changelist" comment="news">
+      <change beforePath="$PROJECT_DIR$/.idea/learning-academy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-academy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_135331_create_cats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_135331_create_cats_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_140335_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_140335_create_courses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SiteContentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SiteContentSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/TrainerSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/TrainerSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +32,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -150,7 +160,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/inc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -163,11 +173,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\learning-academy" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\inc" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\students" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\courses" />
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\cats" />
-      <recent name="C:\wamp\www\learning-academy\resources\views\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\learning-academy\resources\views\admin\inc" />
@@ -227,6 +237,7 @@
       <workItem from="1648311573154" duration="91000" />
       <workItem from="1648311666021" duration="285000" />
       <workItem from="1648646022288" duration="1755000" />
+      <workItem from="1652638265084" duration="3996000" />
     </task>
     <servers />
   </component>
@@ -243,7 +254,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="news" />
+    <option name="LAST_COMMIT_MESSAGE" value="news" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
