@@ -12,16 +12,16 @@ class CatSeeder extends Seeder
      */
     public function run()
     {
-        Cat::create([
-            'name' => 'English',
-        ]);
-
-        Cat::create([
-            'name' => 'web Developer',
-        ]);
-
-        Cat::create([
-        'name' => 'doctor',
-        ]);
+//        Cat::create([
+//            'name' => 'English',
+//        ]);
+//
+//        Cat::create([
+//            'name' => 'web Developer',
+//        ]);
+//
+//        Cat::create([
+//        'name' => 'doctor',
+//        ]);
     }
 }

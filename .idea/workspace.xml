@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455db7ed-067c-4245-932d-ce0c854dc628" name="Default Changelist" comment="news">
-      <change beforePath="$PROJECT_DIR$/.idea/learning-academy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-academy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_135331_create_cats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_135331_create_cats_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_140335_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_140335_create_courses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/SiteContentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SiteContentSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/TrainerSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/TrainerSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdminSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CatSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CatSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CourseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CourseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CourseStudentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CourseStudentSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/StudentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/StudentSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,12 +148,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="25nVfadk5pelEWzhbJ3FMmbtasR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -237,8 +238,15 @@
       <workItem from="1648311573154" duration="91000" />
       <workItem from="1648311666021" duration="285000" />
       <workItem from="1648646022288" duration="1755000" />
-      <workItem from="1652638265084" duration="3996000" />
+      <workItem from="1652638265084" duration="4282000" />
     </task>
+    <task id="LOCAL؜٠٠٠٠١" summary="news">
+      <created>1652645868607</created>
+      <option name="number" value="LOCAL؜٠٠٠٠١" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠١" />
+      <updated>1652645868607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +264,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="news" />
     <option name="LAST_COMMIT_MESSAGE" value="news" />
   </component>
