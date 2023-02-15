@@ -16,16 +16,16 @@ class CreateCoursesTable extends Migration
         Schema::create('courses', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->unsignedBigInteger('cat_id');
-            $table->foreign('cat_id')->references('id')->on('cats');
-
-            $table->unsignedBigInteger('trainer_id');
-            $table->foreign('trainer_id')->references('id')->on('trainers');
-
             $table->string('small_desc');
             $table->text('desc');
             $table->integer('price');
-            $table->string('img');
+            $table->text('img')->nullable();
+            $table->unsignedBigInteger('cat_id');
+            $table->unsignedBigInteger('trainer_id');
+
+
+            $table->foreign('cat_id')->references('id')->on('cats');
+            $table->foreign('trainer_id')->references('id')->on('trainers');
             $table->timestamps();
         });
     }

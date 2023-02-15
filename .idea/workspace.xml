@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455db7ed-067c-4245-932d-ce0c854dc628" name="Default Changelist" comment="news">
-      <change afterPath="$PROJECT_DIR$/database/seeds/AdminSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learning-academy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-academy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_135331_create_cats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_135331_create_cats_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_140333_create_trainers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_140333_create_trainers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_140335_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_140335_create_courses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_02_164945_create_course_student_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_02_164945_create_course_student_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_05_132926_create_tests_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_03_05_132926_create_tests_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AdminSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AdminSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/CatSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CatSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/CourseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CourseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/CourseStudentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CourseStudentSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SiteContentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SiteContentSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/StudentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/StudentSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/TrainerSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/TrainerSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +160,7 @@
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/_laravel_idea" />
     </include_path>
   </component>
   <component name="ProjectId" id="25nVfadk5pelEWzhbJ3FMmbtasR" />
@@ -155,23 +171,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "last_opened_file_path": "C:/laragon/www/learning-academy",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\learning-academy" />
@@ -239,6 +248,13 @@
       <workItem from="1648311666021" duration="285000" />
       <workItem from="1648646022288" duration="1755000" />
       <workItem from="1652638265084" duration="4282000" />
+      <workItem from="1666597459771" duration="573000" />
+      <workItem from="1666634897771" duration="1101000" />
+      <workItem from="1666636038821" duration="13000" />
+      <workItem from="1667806888965" duration="895000" />
+      <workItem from="1671209820503" duration="874000" />
+      <workItem from="1671431111183" duration="12000" />
+      <workItem from="1675092628177" duration="591000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="news">
       <created>1652645868607</created>

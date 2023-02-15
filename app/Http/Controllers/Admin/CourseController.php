@@ -38,12 +38,14 @@ class CourseController extends Controller
             'price' => 'required|integer',
             'cat_id' => 'required|exists:cats,id',
             'trainer_id' => 'required|exists:trainers,id',
-            'img' => 'required|image|mimes:jpg,jpeg,png',
+            'img' => 'nullable|image|mimes:jpg,jpeg,png',
         ]);
 
-        $new_name = $data['img']->hashName();
-        Image::make($data['img'])->resize('970','520')->save(public_path('uploads/courses/'. $new_name));
-        $data['img'] = $new_name;
+        if ($request->has('img')){
+            $new_name = $data['img']->hashName();
+            Image::make($data['img'])->resize('970','520')->save(public_path('uploads/courses/'. $new_name));
+            $data['img'] = $new_name;
+        }
 
         Course::create($data);
 
